@@ -1,1 +1,1 @@
-FROM gcr.io/google_containers/kube-controller-manager-amd64
+FROM {{kube_docker_registry}}/kube-controller-manager:{{kube-controller-manager_docker_tag}
