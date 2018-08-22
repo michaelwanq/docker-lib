@@ -1,6 +1,1 @@
-FROM ARG_FROM
-
-MAINTAINER Bowei Du <bowei@google.com>
-
-ADD bin/ARG_ARCH/ARG_BIN /ARG_BIN
-ENTRYPOINT ["/ARG_BIN"]
+FROM gcr.io/google_containers/kube-controller-manager-amd64
